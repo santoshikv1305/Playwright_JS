@@ -1,0 +1,22 @@
+{
+  "name": "playwright_js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "Smoke_Test": "playwright test --grep @smoke",
+    "Sanity_Test": "playwright test --grep @sanity"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.21"
+  },
+  "dependencies": {
+    "csv-parse": "^5.6.0",
+    "xlsx": "^0.18.5"
+  }
+}

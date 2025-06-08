@@ -1,0 +1,32 @@
+[
+    {
+      "test_case": "TC1",
+      "uname": "Admin", 
+      "password": "admin123",
+      "exp_res": "Dashboard"
+    },
+    { 
+        "test_case": "TC2",
+        "uname": "Admin", 
+        "password": "test",
+        "exp_res": "Invalid credentials"
+      },
+      { 
+        "test_case": "TC3",
+        "uname": "Admin1", 
+        "password": "test1",
+        "exp_res": "Invalid credentials"
+      },
+      { 
+        "test_case": "TC4",
+        "uname": "Admin", 
+        "password": "",
+        "exp_res": "Required"
+      },
+      { 
+        "test_case": "TC5",
+        "uname": "", 
+        "password": "admin123",
+        "exp_res": "Required"
+      }
+  ]

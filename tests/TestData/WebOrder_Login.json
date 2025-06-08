@@ -1,0 +1,22 @@
+[
+    {
+      "test_case": "TC1",
+      "name": "Tester", 
+      "password": "test"
+    },
+    { 
+        "test_case": "TC2",
+        "name": "Tester", 
+        "password": "test"
+      },
+      { 
+        "test_case": "TC3",
+        "name": "Tester", 
+        "password": "test"
+      },
+      { 
+        "test_case": "TC4",
+        "name": "Tester", 
+        "password": "test"
+      }
+  ]
