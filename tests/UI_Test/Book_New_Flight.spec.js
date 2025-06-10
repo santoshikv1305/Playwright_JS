@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
  
 test('Blazedemo - Booking flight', async ({ page }) => {
+  //adding for testing purpose
   await page.goto('https://blazedemo.com/index.php');
   await page.locator('select[name="fromPort"]').selectOption('San Diego');
   await page.locator('select[name="toPort"]').selectOption('Berlin');
